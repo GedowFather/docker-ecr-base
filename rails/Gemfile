@@ -1,0 +1,10 @@
+source "https://rubygems.org"
+gem 'rails'
+gem 'bootsnap', require: false
+gem 'bigdecimal'
+gem 'json'
+gem 'unicorn'
+gem 'etc'
+gem 'tzinfo-data'
+gem 'listen'
+
