@@ -1,6 +1,11 @@
 FROM alpine:latest
 
 #
+# Base
+#
+RUN apk --update add --no-cache bc coreutils
+
+#
 # Nginx
 #
 RUN apk --update add --no-cache nginx && \
