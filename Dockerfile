@@ -3,7 +3,13 @@ FROM alpine:latest
 #
 # Base
 #
-RUN apk --update add --no-cache bc coreutils
+RUN apk --update add --no-cache coreutils bc jq curl
+
+#
+# AWS
+#
+RUN apk --update add --no-cache python3 groff && \
+    pip3 install --upgrade --no-cache-dir pip awscli
 
 #
 # Nginx
