@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-gem 'rails'
+gem 'rails', '5.2.4.1'
 gem 'bootsnap', require: false
 gem 'bigdecimal'
 gem 'json'
